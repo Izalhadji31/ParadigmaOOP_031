@@ -18,6 +18,7 @@ public:
 };
 
 class dokter {
+public:
 
 };
 int main()
