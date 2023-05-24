@@ -32,7 +32,7 @@ public:
         cout << "Dokter \"" << nama << "\" tidak ada\n";
     }
     void tambahPasien(pasien*);
-   
+  
 };
 int main()
 {
