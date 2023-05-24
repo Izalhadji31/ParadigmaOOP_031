@@ -16,6 +16,7 @@ public:
     void tambahDokter(dokter*);
     void cetakDokter();
 };
+
 int main()
 {
     std::cout << "Hello World!\n";
