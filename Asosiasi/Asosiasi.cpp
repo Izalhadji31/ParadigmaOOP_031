@@ -17,6 +17,9 @@ public:
     void cetakDokter();
 };
 
+class dokter {
+
+};
 int main()
 {
     std::cout << "Hello World!\n";
