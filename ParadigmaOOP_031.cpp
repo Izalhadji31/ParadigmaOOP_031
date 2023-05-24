@@ -24,7 +24,7 @@ class pelajar : public orang {
 public:
     string sekolah;
 
-    pelajar(string pNama, string pSekolah) :|
+    pelajar(string pNama, string pSekolah) :
         orang(pNama),
         sekolah(pSekolah) {
         cout << "pelajar dibuat\n" << endl;
@@ -44,6 +44,5 @@ int main()
     cout << siswa1.perkenalan();
     cout << "Hasil = " << siswa1.jumlah(10, 90) << endl;
 
-    return 0;
-
-}
+    return 0;
+};
