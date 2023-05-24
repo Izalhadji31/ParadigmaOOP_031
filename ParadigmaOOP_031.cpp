@@ -8,9 +8,11 @@ public:
     
     orang(string pNama) :
         nama(pNama) {
-        cout << "orang dinuat\n" << endl;
+        cout << "orang dibuat\n" << endl;
     }
-    
+    ~orang() {
+        cout << "orang dihapus\n" << endl;
+    }
 };
 int main()
 {
